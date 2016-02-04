@@ -5,6 +5,141 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+
+body {
+  font-family: helvetica;
+}
+
+header {
+  position: relative;
+  height: 400px;
+  margin-top: 0;
+  background-image: url("../img/monkey_flight.jpg"); 
+  background-size: 100% 100%;
+}
+
+header p {
+  padding 20px;
+  margin-top: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 50pt;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.main-nav {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 15pt;
+  width: 80px;
+  padding: 10px;
+  margin: 20px; 
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+aside {
+  position: fixed;
+  width: 120px;
+  height: 230px;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+aside h2 {
+  padding-left: 20px;
+  color: white;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links li {
+  padding:7px;
+}
+
+.social-links li img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+#watch {
+  border-top: none;
+}
+
+#watch a {
+  text-decoration: none;
+  margin-right:30px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+
+#listen a {
+  text-decoration: none;
+  margin-right:30px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+
+section {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  padding-top: 20px;
+}
+
+.lead::first-letter {
+  font-weight: bold;
+  font-size: 20pt;
+  font-style: italic;
+}
+
+ul.weybec-people {
+  list-style: none;
+}
+
+.headshot {
+  max-width: 250px;
+  margin-top: 40px;
+}
+
+footer {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+}
+
+.sub-nav {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;s
+}
+
+.sub-nav li {
+  display: inline;
+}
+
